@@ -56,7 +56,7 @@ const Main = ({ account }) => {
     <>
       <div>
         <Intro totalNft={totalNft} mintedNft={mintedNft} myNft={myNft} />
-        <Nfts mintedNft={mintedNft} />
+        <Nfts mintedNft={mintedNft} account={account} />
       </div>
     </>
   );
