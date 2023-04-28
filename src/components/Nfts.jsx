@@ -46,10 +46,6 @@ const Nfts = ({ mintedNft, account }) => {
       <div className="flex justify-between">
         <div className="flex">
           <div className=" font-bold text-lg">Top collections</div>
-          <img
-            className="w-12"
-            src={`${process.env.PUBLIC_URL}/images/thunder.png`}
-          />
         </div>
         <div className="flex">
           <div
